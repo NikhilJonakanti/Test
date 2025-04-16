@@ -1,7 +1,5 @@
 FROM nginx:latest
 
-WORK /var/www/html
-
-COPY . /var/www.html
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
